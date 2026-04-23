@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Complete React Project",
+    "description": "Finish building the portfolio website using React and Tailwind CSS.",
+    "status": "in-progress",
+    "priority": "high",
+    "dueDate": "2026-04-30"
+  },
+  {
+    "id": 2,
+    "title": "Study Next.js",
+    "description": "Learn SSR, SSG, and ISR concepts with examples.",
+    "status": "pending",
+    "priority": "medium",
+    "dueDate": "2026-05-05"
+  },
+  {
+    "id": 3,
+    "title": "Fix API Bug",
+    "description": "Resolve data fetching issue in product API.",
+    "status": "completed",
+    "priority": "high",
+    "dueDate": "2026-04-20"
+  },
+  {
+    "id": 4,
+    "title": "Update CV",
+    "description": "Add recent internship and GitHub projects to CV.",
+    "status": "in-progress",
+    "priority": "low",
+    "dueDate": "2026-04-28"
+  },
+  {
+    "id": 5,
+    "title": "Practice DSA",
+    "description": "Solve 5 problems on arrays and linked lists.",
+    "status": "pending",
+    "priority": "medium",
+    "dueDate": "2026-05-01"
+  }
+]
