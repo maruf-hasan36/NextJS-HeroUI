@@ -92,7 +92,7 @@ const Drawers = ({ addATask }) => {
                       <Button slot="close" variant="secondary">
                         Cancel
                       </Button>
-                      <Button act type="submit">
+                      <Button slot="close" type="submit">
                         Submit Form
                       </Button>
                     </Modal.Footer>
