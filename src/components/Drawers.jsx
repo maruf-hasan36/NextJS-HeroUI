@@ -22,8 +22,16 @@ const Drawers = ({ addATask }) => {
               <Modal.Body className="p-6">
                 <Surface variant="default">
                   <form action={addATask} className="flex flex-col gap-4">
-                    <TextField className="w-full" name="title" type="text">
-                      <Label className="text-black">title</Label>
+                    <TextField
+                      isRequired
+                      minLength={8}
+                      className="w-full"
+                      name="title"
+                      type="text"
+                    >
+                      <Label isRequired className="text-black">
+                        title
+                      </Label>
                       <Input placeholder="Enter your Title" />
                     </TextField>
                     <TextField
@@ -31,10 +39,17 @@ const Drawers = ({ addATask }) => {
                       name="description"
                       type="text"
                     >
-                      <Label className="text-black">description</Label>
+                      <Label isRequired className="text-black">
+                        description
+                      </Label>
                       <Input placeholder="Enter your email" />
                     </TextField>
-                    <TextField className="w-full" name="phone" type="tel">
+                    <TextField
+                      isRequired
+                      className="w-full"
+                      name="phone"
+                      type="tel"
+                    >
                       <Label className="text-black">Phone</Label>
                       <Input placeholder="Enter your phone number" />
                     </TextField>
