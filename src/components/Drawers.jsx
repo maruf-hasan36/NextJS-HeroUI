@@ -30,7 +30,7 @@ const Drawers = ({ addATask }) => {
                       type="text"
                     >
                       <Label isRequired className="text-black">
-                        title
+                        titles
                       </Label>
                       <Input placeholder="Enter your Title" />
                     </TextField>
